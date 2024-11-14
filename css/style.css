@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Playfair+Display:ital,wght@1,500&family=Poppins:ital,wght@0,100;1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container1 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    /* justify-content:unsafe; */
+    height: 100vh;
+}
+
+.hamburger {
+    display: flex;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    /* align-items: center; */
+
+}
+
+.ham {
+    width: 27px;
+    position: absolute;
+    margin-left: -188px;
+    margin-top: 5px;
+    /* z-index: 1; */
+}
+.ham1 {
+    background-color: rgb(82, 79, 79);
+}
+
+.cross {
+    margin: 5px -32px;
+    width: 25px;
+    position: absolute;
+}
+
+.sidebar {
+    margin-left: -20px;
+    background-color: rgb(216, 216, 216);
+    width: 210px;
+    position: relative;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.SidebarGo {
+    transform: translate(-200px, 0px);
+    position: relative;
+}
+
+.sidebar ul {
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    margin: 20px 44px;
+    list-style: none;
+    justify-content: centers;
+}
+
+.sidebar ul li {
+    padding: 33px 0px;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.sidebar ul li a:hover {
+    color: #b97f18;
+    font-size: 21px;
+}
+
+.main {
+    /* background-color: burlywood; */
+    height: 400px;
+    margin: 12px 20px 20px 10px;
+    display: flex;
+    width: 72vw;
+    justify-content: space-around;
+}
+
+.info {
+    font-size: 20px;
+    justify-content: center;
+    margin: 250px 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 480px;
+}
+
+.hi {
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.info #Husnain {
+    color: rgb(82, 79, 79);
+    font-size: 23px;
+    font-family: 'Merriweather', serif;
+}
+
+.middleinfo #element {
+    color: rgb(82, 79, 79);
+    font-family: 'Merriweather', serif;
+    font-size: 22px;
+}
+
+.text {
+    font-size: 13px;
+    margin-top: 2px;
+
+}
+
+.button {
+    margin-top: 15px;
+}
+
+.btn1 {
+    padding: 7px;
+    background-color: dodgerblue;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    color: #ffffff;
+    font-family: 'Merriweather', serif;
+    cursor: pointer;
+    font-size: 15px;
+
+}
+.btn1 a{
+    /* list-style: none; */
+    text-decoration: none;
+    color: #ffffff;
+
+}
+
+.btn1:hover {
+    /* font-size: 16px; */
+    background-color: #ffffff;
+    color: dodgerblue;
+
+
+}.btn1 a:hover {
+    /* font-size: 16px; */
+    background-color: #ffffff;
+    color: dodgerblue;
+
+
+}
+
+.info-2 {
+    width: 200px;
+    margin: 60px 100px 0px 0px;
+}
+
+.info-2 img {
+    width: 463px;
+
+
+}
+
+/* contact */
+
+
+
+
+.contactbg .container1{
+    background-image: url('https://images.freecreatives.com/wp-content/uploads/2016/04/Solid-Black-Website-Background.jpg');
+    background-size: cover;
+
+}
+
+.contact {
+    margin: 12px 20px 20px 22px;
+    /* background-color: #f3f3f2; */
+}
+
+.contact .headtext {
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    margin: 50px 120px;
+    font-weight: 400px;
+    color: rgb(206, 206, 206);
+}
+
+/* .headtext {
+    font-size: 30px;
+    font-family: 'Merriweather', serif;
+} */
+
+.contact form {
+    margin: -20px 200px;
+    color: rgb(206, 206, 206);
+
+
+}
+
+.discription {
+    color: rgb(206, 206, 206);
+    font-size: 13px;
+    margin-left: 12px;
+    font-weight: 200;
+
+}
+
+.contact form div .input {
+    width: 400px;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px;
+}
+
+.contact form .submit {
+    border: 1px solid black;
+}
+
+/* INTRO */
+.intro1 {
+    margin: 12px 20px 20px 22px;
+    width: 1000px;
+}
+
+.about1 {
+    text-align: justify;
+    margin: 10px 30px;
+    padding: 10px;
+}
+
+.about1 h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.para1 {
+    font-family: 'Montserrat', sans-serif;
+    color: black;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.skills1 h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+
+}
+
+.skills1 {
+    margin: 0px 50px;
+}
+
+.skillitems {
+    font-size: 20px;
+    font-weight: 480;
+    display: flex;
+    margin: 10px 10px;
+    justify-content: space-between;
+}
+
+.skillbox {
+
+    width: 240px;
+    height: 23px;
+    border: 1px solid black;
+    margin: 0px 30px;
+    border-radius: 5px;
+}
+
+.percent1 {
+    width: 180px;
+    height: 22px;
+    background-color: #ff0e06;
+    border-radius: 5px 1px 0px 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.percent2 {
+    width: 160px;
+    height: 22px;
+    background-color: #ff0e06;
+    border-radius: 5px 1px 0px 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.percent3 {
+    width: 140px;
+    height: 22px;
+    background-color: #ff0e06;
+    border-radius: 5px 1px 0px 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.percent4 {
+    width: 80px;
+    height: 22px;
+    background-color: #ff0e06;
+    border-radius: 5px 1px 0px 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.percent5 {
+    width: 120px;
+    height: 22px;
+    background-color: #ff0e06;
+    border-radius: 5px 1px 0px 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.percent6 {
+    width: 140px;
+    height: 22px;
+    background-color: #ff0e06;
+    border-radius: 5px 1px 0px 5px;
+    font-size: 10px;
+    text-align: center;
+}
+
+.education {
+    margin-top: 20px;
+}
+
+.education h1 {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.education table {
+    margin: 20px 50px;
+
+}
+
+.education table th {
+    border: 1px solid black;
+    padding: 10px 50px;
+    font-size: 20px;
+
+}
+
+.education table td {
+    border: 1px solid black;
+    padding: 10px 50px;
+
+}
+
+.td1 {
+    font-weight: 800;
+}
+
+.td2 {
+    font-weight: 300;
+}
+
+.td3 {
+    font-weight: 200;
+}
+
+.experience h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.project h1 {
+    margin-top: 40px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.proj {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.proj .project1 {
+    margin: 30px;
+    width: 220px;
+    height: 300px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
+}
+
+.proj .project1 .proj-box {
+    margin: 30px 25px;
+    width: 170px;
+    height: 190px;
+    border: 1px solid rgb(206, 206, 206);
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.proj2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.proj2 .project1 {
+    margin: 30px;
+    width: 220px;
+    height: 300px;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 10px;
+    background-color: rgb(196, 196, 196);
+}
+
+.proj2 .project1 .proj-box {
+    margin: 30px 25px;
+    width: 170px;
+    height: 190px;
+    border: 1px solid rgb(206, 206, 206);
+    justify-content: center;
+    border-radius: 10px;
+    /* background-color: #b97f18; */
+    background-image: url("image\I1.jpeg");
+
+
+
+}
+
+.btnprime {
+    margin: -9px 60px;
+}
+
+#box1 {
+    background-image: url("https://img.allw.mn/content/fashion/2013/01/2_underarmour.jpg");
+    background-size: cover;
+}
+
+#box2 {
+    background-image: url("https://th.bing.com/th/id/R.ae6b6533d411e9cc097464ec23057ba0?rik=0AMRETi7fD0DLg&pid=ImgRaw&r=0");
+    background-size: cover;
+}
+
+#box3 {
+    background-image: url("https://cdn.dribbble.com/users/37680/screenshots/684563/nike-homepage.png");
+    background-size: cover;
+}
+
+#box4 {
+    background-image: url("https://th.bing.com/th/id/OIP.FYk6LUKZialw2JerlomZZQAAAA?rs=1&pid=ImgDetMain");
+    background-size: cover;
+}
+
+#box5 {
+    background-image: url("https://th.bing.com/th/id/OIP.h_Ggv2dSVFkTQIvvZpjuLwAAAA?rs=1&pid=ImgDetMain");
+    background-size: cover;
+}
+
+#box6 {
+    background-image: url("https://payload.cargocollective.com/1/2/69280/13979961/Nike_Careers_Site_Desktop_LifeAtNike_Desktop_3_3840.jpg");
+    background-size: cover;
+}
+
+/* blog */
+.blog {
+    margin: 12px 20px 20px 22px;
+    width: 1000px;
+}
+
+.bloging h1 {
+    margin-top: 20px;
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    /* margin-left: 50px; */
+
+}
+
+.introduct h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    margin-left: 50px;
+
+}
+
+.heading h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    margin-left: 50px;
+
+}
+
+.happening h1 {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Playfair Display', serif;
+    font-weight: 200;
+    margin-left: 50px;
+
+}
+
+.para {
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.btnprime {
+    margin-top: 20px;
+}
